@@ -114,7 +114,7 @@ int main() {
 
     cout << "\nSebaran huruf mutu:\n";
     for (char huruf = 'A'; huruf <= 'E'; huruf++) {
-        int banyak = 0;
+        int banyak = 0; 
         if (huruf == 'A') {
             banyak = jumlah_a;
         } else if (huruf == 'B') {
